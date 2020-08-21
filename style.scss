@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+body { 
+  background: url('anchor.jpg') center no-repeat fixed;
+  width: 100%;
+  font-family: "Ubuntu Condensed", "Lucida Console", Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  margin: 0
+}
+.container {
+  border: 1px solid black;
+  background: rgba(0, 170, 238, 0.9); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+  padding: 15px;
+  max-width: 850px;
+  margin: 40px auto;
+  h1 {padding: 10px;
+    font-size: 80px;
+    color: rgb(42, 224, 72);
+    text-shadow: 3px 3px grey;
+  }
+  p {
+    padding: 10px;
+    font-size: 40px;
+    color: rgb(3, 37, 48);
+  }
+  figure {
+    color: black;
+    margin-bottom: 20px;
+  }
+}
+
+#image {
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 10px;
+  border: 1px solid #000;
+  }
+  .text-content {
+    h2 {
+      font-size: 50px;
+      color: rgb(74, 78, 97);
+      margin-bottom: 20px;
+    }
+    ul {
+      margin: 0 auto;
+      width: 80%;
+      line-height: 25px;
+      text-justify: auto;
+    }
+    li{
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	    margin: 0px 0px 15px 0px;
+	    padding: 0px 0px 0px 36px;
+	    background: url('icon.png') 0 1px no-repeat;
+	    font-size: 20px;
+    }
+    h3 {
+      color: black;
+      line-height: 35px;
+      a {
+        background: rgb(91, 241, 22);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 15px;
+        box-shadow: 5px 5px grey;
+        &:hover {
+          background: rgb(226, 212, 14);
+        }
+      }
+    }
+  }
